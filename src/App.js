@@ -65,7 +65,7 @@ class App extends Component {
       );
     }else{
       return(     // Se devuelve el JSX
-        <button onClick={this.handleAuth}>Login with Google</button>
+        <button onClick={this.handleAuth}>Login with Gooooogle</button>
       );
     }
   }
