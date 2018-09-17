@@ -56,12 +56,12 @@ class App extends Component {
     if (this.state.user){
       return (  // Se devuelve el JSX
         <div>
-          <img width="100" src={this.state.user.photoURL} alt={this.state.user.displayName} />
+          <img width="50" src={this.state.user.photoURL} className="rounded" alt={this.state.user.displayName} />
           <p> Hola {this.state.user.displayName} mi amor, gracias por iniciar sesión </p>
           <FileUpload />
           <br />
           <button onClick={this.handleLogout}>Logout</button>
-        </div>
+        </div>  
       );
     }else{
       return(     // Se devuelve el JSX

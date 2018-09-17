@@ -40,6 +40,7 @@ class FileUpload extends Component{
         <input type="file" onChange={this.handleUpload} />
         <br/>
         <img width="300" src={this.state.picture} alt="" />
+        deas
       </div>
     );
   }
